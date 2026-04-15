@@ -14,7 +14,7 @@ tags:
 创建新的仓库：名字是你的github名字.github.io
 创建成功后clone到本地文件夹中 如果觉得麻烦可以下载GitHub desktop 可以帮助我们使用git命令
 ![](../assets/blog_res/2026-04-15-obsidian-github-GitHub.assets/image-20260415180805940.png)
-笔记是保存在_posts下面的 图片是保存在assets下的blog_res（[文件图片的问题](2026-04-15-obsidian-github-GitHub.md#文件图片的问题)）
+笔记是保存在_posts下面的 图片是保存在assets下的blog_res[文件图片的问题](#文件图片的问题)
 我们在刚使用的chripy中选择设置（setting）选择pages
 ![](../assets/blog_res/2026-04-15-obsidian-github-GitHub.assets/image-20260415180805948.png)
 source中选择GitHub actions等待一分钟就可以进入个人页面了
