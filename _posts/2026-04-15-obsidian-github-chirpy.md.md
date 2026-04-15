@@ -25,4 +25,6 @@ tags:
 ![](../assets/blog_res/2026-04-15-obsidian-github-chirpy.md.assets/image-20260415175524639.png)
 点击搜索
 ![](../assets/blog_res/2026-04-15-obsidian-github-chirpy.md.assets/image-20260415175626755.png)
-xia'z
+下载成功后在设置成这样
+![](../assets/blog_res/2026-04-15-obsidian-github-chirpy.md.assets/image-20260415175711044.png)
+然后打开
