@@ -16,7 +16,8 @@ tags:
 ![](../assets/blog_res/2026-04-15-obsidian-github-chirpy.md.assets/image-20260415175245532.png)
 笔记是保存在_posts下面的 图片是保存在assets下的blog_res（[文件图片的问题](2026-04-15-obsidian-github-chirpy.md.md#文件图片的问题)）
 
-
+# git自动上传
+下载插件
 
 # 文件图片的问题
 因为我之前一直使用的是typora 在typora中可以轻松解决这个问题 。
@@ -28,3 +29,4 @@ tags:
 下载成功后在设置成这样
 ![](../assets/blog_res/2026-04-15-obsidian-github-chirpy.md.assets/image-20260415175711044.png)
 然后打开
+![](../assets/blog_res/2026-04-15-obsidian-github-chirpy.md.assets/image-20260415175742118.png)内部链接设置成相对路径 不使用wiki 这样基本上就没有什么大问题了
