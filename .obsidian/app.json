@@ -3,5 +3,6 @@
   "newFileLocation": "current",
   "newFileFolderPath": "",
   "useMarkdownLinks": true,
-  "newLinkFormat": "shortest"
+  "newLinkFormat": "shortest",
+  "trashOption": "none"
 }
