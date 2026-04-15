@@ -1,3 +1,13 @@
+---
+title: java八股文前五十道题
+date: 2026-04-14 13:00:00 +0800
+tags:
+  - java
+categories:
+  - 技术
+  - java
+---
+
 # Java八股文200道
 
 ## 一、Java基础篇
@@ -231,9 +241,7 @@ throw用于手动抛出异常对象，而throws用于声明方法可能抛出的
 ```
 
 **异常的分类**，及常见异常？
-
-![image-20250917093904860](Java%E5%85%AB%E8%82%A1%E6%96%87200%E9%81%93-Java%E5%9F%BA%E7%A1%80%E7%AF%87.assets/image-20250917093904860.png)
-
+![](../assets/blog_res/2026-04-15-java-basic.assets/image-20250917093904860.png)
 ### 18、常用的排序算法有哪些？
 
 ```
