@@ -2,5 +2,6 @@
   "attachmentFolderPath": "assets/blog_res/{{title}}.assets",
   "newFileLocation": "current",
   "newFileFolderPath": "",
-  "useMarkdownLinks": true
+  "useMarkdownLinks": true,
+  "newLinkFormat": "shortest"
 }
