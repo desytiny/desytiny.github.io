@@ -16,6 +16,8 @@ tags:
 ![](../assets/blog_res/2026-04-15-obsidian-github-chirpy.md.assets/image-20260415175245532.png)
 笔记是保存在_posts下面的 图片是保存在assets下的blog_res（[文件图片的问题](2026-04-15-obsidian-github-chirpy.md.md#文件图片的问题)）
 我们在刚使用的chripy中选择设置（setting）选择pages
+![](../assets/blog_res/2026-04-15-obsidian-github-chirpy.md.assets/image-20260415180100673.png)
+x
 
 # git自动上传
 下载插件git之后就可以自动上传了
