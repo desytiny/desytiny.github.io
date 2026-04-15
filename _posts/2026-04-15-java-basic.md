@@ -241,8 +241,8 @@ throw用于手动抛出异常对象，而throws用于声明方法可能抛出的
 ```
 
 **异常的分类**，及常见异常？
+![](../assets/blog_res/2026-04-15-java-basic.assets/image-20260415184847760.png)
 
-![](../assets/blog_res/2026-04-15-java-basic.assets/image-20250917093904860.png)
 ### 18、常用的排序算法有哪些？
 
 ```
