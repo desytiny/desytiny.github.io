@@ -15,9 +15,10 @@ tags:
 创建成功后clone到本地文件夹中 如果觉得麻烦可以下载GitHub desktop 可以帮助我们使用git命令
 ![](../assets/blog_res/2026-04-15-obsidian-github-chirpy.md.assets/image-20260415175245532.png)
 笔记是保存在_posts下面的 图片是保存在assets下的blog_res（[文件图片的问题](2026-04-15-obsidian-github-chirpy.md.md#文件图片的问题)）
+我们在刚使用的chripy中选择设置（setting）选择pages
 
 # git自动上传
-下载插件
+下载插件git之后就可以自动上传了
 
 # 文件图片的问题
 因为我之前一直使用的是typora 在typora中可以轻松解决这个问题 。
