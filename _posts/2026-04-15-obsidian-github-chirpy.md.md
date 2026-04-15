@@ -21,3 +21,8 @@ tags:
 # 文件图片的问题
 因为我之前一直使用的是typora 在typora中可以轻松解决这个问题 。
 但是在obsidian中我们需要下载插件
+
+![](../assets/blog_res/2026-04-15-obsidian-github-chirpy.md.assets/image-20260415175524639.png)
+点击搜索
+![](../assets/blog_res/2026-04-15-obsidian-github-chirpy.md.assets/image-20260415175626755.png)
+xia'z
