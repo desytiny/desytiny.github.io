@@ -8,3 +8,4 @@ tags:
 ---
 # 一.使用仓库chripy
 
+	在GitHub上面搜索(https://github.com/cotes2020/chirpy-starter) 
