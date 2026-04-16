@@ -563,6 +563,7 @@ AIO：
 ```
 
 ### 24、List、Set、Map区别?
+![](../assets/blog_res/2026-04-15-java-basic.assets/image-20260416105459903.png)
 
 ```
 List、Set、Map区别简述：
