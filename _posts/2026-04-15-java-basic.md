@@ -248,7 +248,122 @@ public class Object{
 用途：
 允许开发者在代码执行过程中捕获到异常并进行处理，从而防止程序崩溃。
 ```
+try-catch常见的题
+面试题一
+```
+public static void main(String[] args){
+    int result = test1();
+    System.out.println(result);
+}
 
+public static int test1(){
+    int i = 1;
+    try{
+        i++;
+        System.out.println("try block, i = "+i);
+    }catch(Exception e){
+        i--;
+        System.out.println("catch block i = "+i);
+    }finally{
+        i = 10;
+        System.out.println("finally block i = "+i);
+    }
+    return i;
+}
+try block, i = 2
+finally block i = 10
+10
+
+
+```
+面试题2
+```
+public static void main(String[] args){
+    int result = test2();
+    System.out.println(result);
+}
+
+public static int test2(){
+    int i = 1;
+    try{
+        i++;
+        System.out.println(1/0);//抛出异常,即直接出现异常,异常类型是Exception
+    }catch(Exception e){
+        i--;
+        System.out.println("catch block i = "+i);
+    }finally{
+        i = 10;
+        System.out.println("finally block i = "+i);
+    }
+    return i;
+}
+catch block i = 1
+finally block i = 10
+10
+```
+面试题三
+```
+public static void main(String[] args){
+    int result = test3();
+    System.out.println(result);
+}
+
+public static int test3(){
+    int i = 1;
+    try{
+        i++;
+        System.out.println("try block, i = "+i);
+        return i;
+    }catch(Exception e){
+        i ++;
+        System.out.println("catch block i = "+i);
+        return i;
+    }finally{
+        i = 10;
+        System.out.println("finally block i = "+i);
+    }
+}
+
+try block, i = 2
+finally block i = 10
+2
+```
+面试题4
+```
+public static int test4(){
+    int i = 1;
+    try{
+        i++;
+        System.out.println("try block, i = "+i);
+        return i;
+    }catch(Exception e){
+        i++;
+        System.out.println("catch block i = "+i);
+        return i;
+    }finally{
+        i++;
+        System.out.println("finally block i = "+i);
+        return i;
+    }
+}
+
+3
+```
+
+总结
+```
+如果在带有方法的返回值的方法中定义try.. catch语句时，执行顺序：
+
+1、不管有没有出现异常，finally块中代码都会执行；
+
+2、当try和catch中有return时，finally仍然会执行；
+
+3、如果在finally之前遇到了return语句（此时并不会返回结果，而是先把要返回的值保存起来，不管
+
+finally中的代码怎么样，返回的值都return时刻的值）；
+
+4、finally中最好不要包含return，否则程序会提前退出，返回值不是try或catch中保存的返回值
+```
 ### 17、throw和thows区别？
 
 ```
