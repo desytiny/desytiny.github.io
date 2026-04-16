@@ -488,6 +488,14 @@ public static void selectionSort(int[] arr) {
 抽象类：一个类只能继承一个抽象类（单继承）。
 接口：一个类可以实现多个接口（多实现）。
 ```
+默认访问修饰符
+
+| 修饰符       | 本类  | 同包  | 子类  | 任意类 |
+| --------- | --- | --- | --- | --- |
+| private   | √   | ×   | ×   | ×   |
+| default   | √   | √   | ×   | ×   |
+| protected | √   | √   | √   | ×   |
+| public    | √   | √   | √   | √   |
 
 ### 20、String、StringBuffer、StringBuilder区别？
 
