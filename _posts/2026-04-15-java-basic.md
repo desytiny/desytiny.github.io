@@ -193,7 +193,14 @@ finally是什么呢？是Java的一种异常处理机制。finally只能用在tr
 ```
 
 ### 14、深拷贝和浅拷贝
-浅拷贝
+```
+引用拷贝：只是复制对象的地址并不会创建一个新的对象
+```
+![](../assets/blog_res/2026-04-15-java-basic.assets/image-20260416094741646.png)
+```
+浅拷贝会创建一个新的对象 并进行属性复制 对引用类型的属性只会复制其对象地址
+深拷贝则是完全复制整个对象包括引用类型的属性
+```
 ```
 public class Object{
 	protected native Object clone() throws CloneNotSuppportedException
