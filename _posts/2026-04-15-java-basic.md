@@ -406,6 +406,26 @@ public static void bubbleSort(int[] arr) {
 时间复杂度：O(n^2)（平均、最坏和最好情况）
 空间复杂度：O(1)
 稳定性：不稳定
+public static void selectionSort(int[] arr) {
+        int n = arr.length;
+        // 外层循环：控制已排序区间
+        for (int i = 0; i < n - 1; i++) {
+            // 假定当前i位置是最小值下标
+            int minIndex = i;
+            
+            // 内层循环：找未排序区间的最小值
+            for (int j = i + 1; j < n; j++) {
+                if (arr[j] < arr[minIndex]) {
+                    minIndex = j;
+                }
+            }
+            
+            // 把找到的最小值 和 当前i位置交换
+            int temp = arr[i];
+            arr[i] = arr[minIndex];
+            arr[minIndex] = temp;
+        }
+    }
 3、插入排序（Insertion Sort）：
 插入排序的基本思想是将一个元素插入到已经排序好的部分，直到所有元素排序完成。直接插入排序是插入排序的粗暴实现。
 时间复杂度：O(n^2)（平均和最坏情况），O(n)（最好情况）
