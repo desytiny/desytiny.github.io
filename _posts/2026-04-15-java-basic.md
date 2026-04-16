@@ -512,6 +512,12 @@ StringBuffer：StringBuffer是线程安全的。它的所有方法都被synchron
 StringBuilder：StringBuilder不是线程安全的。它的方法没有被synchronized修饰，因此在多线程环境中使用StringBuilder可能会导致数据不一致的问题。
 ```
 
+|              | 可变性 | 线程安全 |
+| ------------ | --- | ---- |
+| String       | 不可变 | 安全   |
+| StringBuffer | 可变  | 安全   |
+| StringBuffer | 可变  | 不安全  |
+
 ### 21、字节流和字符流区别？
 
 ```
