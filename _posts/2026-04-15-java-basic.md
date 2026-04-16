@@ -193,6 +193,12 @@ finally是什么呢？是Java的一种异常处理机制。finally只能用在tr
 ```
 
 ### 14、深拷贝和浅拷贝
+浅拷贝
+```
+public class Object{
+	protected native Object clone() throws CloneNotSuppportedException
+}
+```
 
 ```
 深拷贝（Deep Copy）和浅拷贝（Shallow Copy）是在复制对象或数据结构时所使用的两种不同的拷贝方法，它们之间的区别主要在于拷贝的程度和对原始对象内部结构的影响。
