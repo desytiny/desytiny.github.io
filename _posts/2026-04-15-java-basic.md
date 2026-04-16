@@ -199,6 +199,7 @@ public class Object{
 	protected native Object clone() throws CloneNotSuppportedException
 }
 ```
+![](../assets/blog_res/2026-04-15-java-basic.assets/image-20260416094320302.png)
 
 ```
 深拷贝（Deep Copy）和浅拷贝（Shallow Copy）是在复制对象或数据结构时所使用的两种不同的拷贝方法，它们之间的区别主要在于拷贝的程度和对原始对象内部结构的影响。
