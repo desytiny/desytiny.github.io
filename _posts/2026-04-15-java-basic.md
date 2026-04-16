@@ -335,7 +335,7 @@ public static int test4(){
     try{
         i++;
         System.out.println("try block, i = "+i);
-        return i;
+        return i;//这个时候是把i的值存储起来
     }catch(Exception e){
         i++;
         System.out.println("catch block i = "+i);
