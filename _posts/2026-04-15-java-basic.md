@@ -579,6 +579,7 @@ Map实现类：HashMap、Hashtable、LinkedHashMap、TreeMap。
 ```
 
 ### 25、ArrayList、LinkedList、Vector 的区别?
+![](../assets/blog_res/2026-04-15-java-basic.assets/image-20260416105751921.png)
 
 ```
 1、底层数据结构：
